@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+ body{   
+    background-image:url(images/bt2.jpg);
+    background-size: cover;
+    background-position: center;
+   position: relative;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+a {
+    color: inherit; 
+    text-decoration: inherit;
+}
+.logo{
+    width:100px;
+    cursor:pointer;
+    
+}
+.nav_content{
+    display: flex;
+    gap:40px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.69);
+}
+.nav_list{
+    padding-top: 30px;
+    gap:40px;
+    margin-left: 800px;
+    font-size: 20px;
+    display: flex;    
+}
+.social{
+    display: flex;
+    margin-top: 30px;
+    gap: 15px;
+}
+.content{
+    color: white;
+    margin: 50px 50px;
+
+}
+.about{
+    padding:7px 10px;
+    border-radius: 20px;
+    color: white;
+    
+}
+.about:hover{
+    background-color: rgba(255, 255, 255, 0.851);
+    transition: 0.4s;
+    color: black;
+}
+.bio{
+    margin-right:500px ;
+    text-align: justify;
+}
+.soc{
+    border-radius: 50%;
+    height: 35px;
+     width: 35px; 
+}
+.soc:hover{
+    background-color:white;
+    transition: 0.4s;
+}
+.aboutme{
+    margin-top: 100px;
+}
+span{
+    color: orange;
+}
+h1{
+    font-size: 70px;
+    color: orange;
+    margin-top: 150px;
+    margin-left: 500px;
+}
+p{
+    font-size: 17px;
+}
+.iandh{
+   
+    margin-top: 50px;
+}
+.nerd{
+    border-style: solid;
+    border-color: white;
+    border-radius: 50px;
+    padding-left: 30px;
+    padding-top: 30px;
+    background-color: rgba(37, 36, 36, 0.899);
+    margin-top: 50px;
+    margin-right: 200px;
+    
+}
+.nerdd{
+    text-align: justify;
+    gap:20px;
+}
+p{
+    text-align: justify;
+}
+#i1{
+    width: 1000px;
+    margin-top:30px;
+}
+#i2{
+    margin-left: 20px;
+}
+
+h2{
+    font-size: 50px;
+}
+h3{
+    font-size: 30px;
+}
+.pic{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
